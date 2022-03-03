@@ -49,5 +49,13 @@ public class Student extends Human{
         this.address = address;
     }
 
-
+    /**
+     * Returns a string representation of this student.
+     * @return 
+     */
+    @Override
+    public String toString() {
+        String rv = String.format("%s, age %d%nAddress: %s%nGPA: %.2f%nCredits: %d", name, age, address, gpa, credits);
+        return rv;
+    }
 }
