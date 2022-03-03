@@ -12,6 +12,7 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class Senior extends Student{
 
+    // throws a CreditValueException if student's credit value isn't enough for senior status
     public Senior(String name, short age, int credits) throws CreditValueException{
         super(name, age, credits);
         if(credits < 85) {
