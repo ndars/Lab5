@@ -22,7 +22,7 @@ public class Freshman extends Student{
      */
     @Override
     public String toString() {
-        String rv = super.toString() + "\nStatus: Senior";
+        String rv = super.toString() + "\nStatus: Freshman";
         return rv;
     }
 }
