@@ -8,9 +8,11 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class Student extends Human{
     
     protected double gpa; // the student's grade point average
+    protected int credits; // the student's earned credits
 
-    public Student(String name, short age) {
+    public Student(String name, short age, int credits) {
         super(name, age);
+        this.credits = credits;
     }
 
     /**
