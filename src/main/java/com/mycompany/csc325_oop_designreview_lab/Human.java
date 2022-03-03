@@ -2,12 +2,12 @@ package com.mycompany.csc325_oop_designreview_lab;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author MoaathAlrajab, ndars
  */
 public abstract class Human {
-    private String name;
-	private String address;
-	private short age;
+        protected String name;
+	protected String address;
+	protected short age;
 	
 	// constructor that takes only two paras
 	public Human(String name, short age) {
